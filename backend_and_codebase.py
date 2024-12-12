@@ -12,10 +12,6 @@ import pytz
 # Set the desired timezone (e.g., 'Asia/Kolkata' for Indian Standard Time)
 timezone = pytz.timezone('Asia/Kolkata')
 
-import sqlite3 as sql
-
-conn = sql.connect('counter.db')
-
 import sqlite3
 from datetime import datetime
 import smtplib
